@@ -1,0 +1,22 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --verbose tests/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "inquirer": "^8.1.5",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {}
+}

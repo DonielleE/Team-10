@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Team Profile</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="bi bi-people" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Team Profile
+          </a>
+        </div>
+      </nav>
+<br>
+<br>
+<div class="card" style="width: 16rem;">
+  <div class="card-header">${man.getName()}
+    <div class="card-subheader mb-2 text-muted">${man.getRole()}</div>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Id:${man.getId()} </li>
+    <li class="list-group-item">Office number:${man.getOfficeNumber()} </li>
+    <li class="list-group-item">Email:<a href="${man.getEmail()}" class="card-link">${man.getEmail()}</a></li>
+  </ul>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+    <script src="../output/index2.js"></script>
+</body>
+</html>
